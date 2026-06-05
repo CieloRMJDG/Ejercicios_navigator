@@ -254,7 +254,7 @@ class _FormularioScreenState extends State<FormularioScreen> {
               ),
               const SizedBox(height: 16),
               DropdownButtonFormField<String>(
-                value: _selectedStatus,
+                initialValue: _selectedStatus,
                 items: const [
                   DropdownMenuItem(
                     value: 'En progreso',
